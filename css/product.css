@@ -1,0 +1,34 @@
+.product__item{
+    color: black;
+    margin-top: 70px;
+    display: flex;
+   justify-content: space-evenly;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+.item__box__item{
+    border: 1px solid black;
+    width: 200px;
+    height: 270px;
+    padding: 10px;
+    
+}
+.item__info{
+   font-size: 15px;
+   color: #000;
+   
+   
+}
+.item__title__item{
+    border:1px solid rgb(231, 121, 19);
+    background-color: rgb(253, 127, 10);
+    padding: 10px;
+    width: 100%;
+    height: 65px;
+    text-align: center;
+    color: rgb(225,255,255);
+    
+}
