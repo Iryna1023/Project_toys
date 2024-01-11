@@ -15,7 +15,7 @@
             <div class="header__container container">
                 <div data-include="modal.html"></div>
                 <nav data-include="header.partial.html"></nav>
-            </div>
+         </div>
         </div>
     </header>
      <section data-include="search.panel.html"></section>
