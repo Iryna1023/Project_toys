@@ -1,0 +1,8 @@
+.model__item{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    color: rgb(253, 127, 10);
+    padding: 10px 0 10px 0;
+    
+}
