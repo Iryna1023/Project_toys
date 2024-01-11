@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="img/logo/bear.jpeg" type="image/x-icon">
     <link rel="stylesheet" href="css/index.css">
 </head>
-<body>
+ <body>
     <header class="header">
         <div class="header__background">
             <div class="header__container container">
