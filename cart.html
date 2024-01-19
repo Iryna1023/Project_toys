@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кошик</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo/bear.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+   
+</head>
+<body>
+    <div class="home__container wrapper">  
+    <div class="home">
+        <a href="./index.html">
+        <svg display="none">
+            <symbol id="cart__cart" viewBox="0 0 122.88 112.07">
+                <g><path class="st0" d="M61.44,0L0,60.18l14.99,7.87L61.04,19.7l46.85,48.36l14.99-7.87L61.44,0L61.44,0z M18.26,69.63L18.26,69.63 L61.5,26.38l43.11,43.25h0v0v42.43H73.12V82.09H49.49v29.97H18.26V69.63L18.26,69.63L18.26,69.63z"/></g>
+            </symbol>
+        </svg>
+        <svg class="home__item">
+            <use xlink:href="#cart__cart" ></use>
+        </svg>
+        </a>
+        <span class="home__cart">&#62;</span>
+        
+        <p class="home__order">Оформлення замовлення</p>
+    </div>
+    <div class="title__cart">
+        <p>Видалити</p>
+        <p>Фото</p>
+        <p>Найменування товару</p>
+        <p>Ціна</p>
+        <p>Кількість</p>
+        <p>Всього</p>
+    </div>
+    <div class="home__box" id="my-cart"></div> 
+   </div>
+   <footer data-include="footer.html"></footer> 
+    <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script type="module" src="./js/index.js"></script>
+</body>
+</html>

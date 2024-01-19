@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кошик</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo/bear.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+   <!-- modal.html -->
+<div id="myModal" class="modal">
+    <div class="modal__content">
+      <div class="modal__add">
+        <div class="modal__btn">
+      <button type="button" class="close">x</button>
+    </div>
+      <section class="section">
+        <input type="text" class="i-1" id="articleInput" placeholder="  Артикул">
+      </section>
+      <section class="section">
+        <input type="text" class="i-1" id="nameInput" placeholder="  Назва товару">
+      </section>
+      <section class="section">
+        <input type="text" class="i-1" id="descriptionInput" placeholder="  Опис">
+      </section>
+      <section class="section">
+        <input type="number" class="i-1" id="priceInput" placeholder="  Ціна">
+      </section>
+      <section class="section">
+        <input type="file"  class="i-1" id="avatar" id="avatar" placeholder="  Картинка" name="avatar" accept="image/png, image/jpeg" />
+      </section>
+      <div class="section__box">
+        <select id="pageSelect" class="page-select">
+        <option value="./education.partial.html">Розвиваючі іграшки</option>
+        <option value="logic">Дерев'яні іграшки</option>
+        <option value="logic">Головоломки</option>
+        <option value="laptop">Комп'ютери, ноутбуки</option>
+      </select>
+        <select id="pageSelect" class="page-select">
+        <option value="./toys-for-girls.partial.html">Товари для дівчаток</option>
+        <option value="Dolls">Ляльки та пупси</option>
+        <option value="Cosmetics">Косметика</option>
+        <option value="Kitchen">Посуд та кухні</option>
+        <option value="Heir">Перукарські набори</option>
+        </select>
+      <select id="pageSelect" class="page-select">
+        <option value="./toys-for-boys.partial.html">Товари для хлопчиків</option>
+        <option value="Constructor">Конструктори</option>
+        <option value="Robot">Роботи</option>
+        <option value="Radio">Радіокеровані моделі</option>
+        <option value="Parking">Паркінги,трекі</option>
+      </select>
+      <select id="pageSelect" class="page-select">
+        <option value="./bike.html">Велосипеди</option>
+        <option value="bike-2">Велосипеди двоколісні</option>
+        <option value="bike-3">Велосипеди триколісні</option>
+      </select>
+      <select id="pageSelect" class="page-select">
+        <option value="./electro.partial.html">Електромобілі</option>
+        <option value="quat-bike">Квадроцикли</option>
+        <option value="jeep">Джипи</option>
+      </select>
+      </div>
+      <button type="button" class="b-1" id="add">Додати</button>
+    </div>
+  </div>
+  </div>      
+    <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script type="module" src="./js/index.js"></script>
+</body>
+</html>

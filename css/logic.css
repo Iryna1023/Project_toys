@@ -1,0 +1,72 @@
+
+.item__logic{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    grid-row-gap: 60px;
+    color: black;
+    margin-top: 70px;
+    
+  }
+
+  .item__box{
+    border: 1px solid #bbb8b8;
+    padding: 10px;
+    height: 100%;  
+    margin: 10px;
+    max-width: 200px;
+    box-sizing: border-box;
+}
+
+.item__title{
+    word-wrap: break-word;
+    overflow-wrap: break-word; 
+    white-space: normal;
+    max-width: 100%;
+    font-size: 15px;
+    color: #000;  
+}
+
+.item__subtitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.item__stock{
+    margin-top: 20px;
+}
+
+.item__price{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.price__item{
+    padding: 3px 5px;
+    background-color: #1bb90c;
+    text-align: center;
+    color: rgb(225,255,255);
+}
+
+.stock{
+    color: #1bb90c;
+    font-size: 12px;
+    
+}
+
+.btn-price{
+    padding: 3px 7px;
+    background-color: rgb(11, 128, 51);
+    color: #fff;
+}
+
+.item__buy{
+    padding: 3px 7px;
+    background-color: rgb(253, 127, 10);
+    color: #fff;
+   cursor: pointer; 
+}

@@ -1,0 +1,23 @@
+#searchPanel {
+    display: flex;
+    margin-bottom: 20px;
+    width: 800px;
+    margin-top: 20px;
+  }
+
+  #searchInput {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+  }
+
+  #searchButton {
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+ #searchExit {
+    width: 20px;
+    height: 38px;
+ }

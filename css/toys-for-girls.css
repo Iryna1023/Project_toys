@@ -1,0 +1,10 @@
+.item__icon__item{
+    border: 1px solid black;
+    width: 200px;
+    height: 270px;
+    padding: 10px;
+}
+.item__title__item a{
+    color: rgb(225,255,255);
+    font-size: 18px;
+}
