@@ -16,3 +16,8 @@
     font-size: 16px;
     cursor: pointer;
   }
+
+ #searchExit {
+    width: 20px;
+    height: 38px;
+ }
