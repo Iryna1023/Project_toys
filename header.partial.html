@@ -1,4 +1,7 @@
 <nav class="header__nav wrapper">
+    <div class="header__admin">
+        <button type="button" id="myBtn"><img src="img/icons/admin.png"  class="admin__account" alt="" width="32" height="32"> </button>     
+    </div>
     <div class="header__nav-logo">
         <a class="header__nav-link" href="index.html">
             <img src="img/logo.kub/kub.png" alt="Logo" class="header__nav-img" />
@@ -14,7 +17,7 @@
              <li class="nav-list__link"><a href="./education.partial.html">Розвиваючі іграшкі</a></li>
              </ul>
              <div class="dropdown-content">
-             <a href="./education-three.html">Дерев'яні іграшки</a>
+             <a href="./education-tree.html">Дерев'яні іграшки</a>
              <a href="./logik.html">Головоломки</a>
              <a href="./laptop.html">Комп'ютери, ноутбуки</a>
              </div>
@@ -63,8 +66,9 @@
             <li class="nav-list__link"><a href="#">Відгуки</a></li>
             <li class="nav-list__link"><a href="#">Контакти</a></li>
        </ul>
-        <div class="header__cart cart">
-            <div class="nav-link cart modal__item" onclick="openModal()">
+        <div class="header__cart cart">    
+         <a href="./cart.html"> 
+             <div class="nav-link cart" >
                 <svg display="none">
                     <symbol id="cart" viewBox="0 0 122.43 122.88">
                         <g>
@@ -72,11 +76,12 @@
                            </g>
                     </symbol>
                 </svg>
-                <span class="cart-badge" id="cartEl">0</span>
-                <svg class="cart item__view" onclick="addToCart()">
+                <span class="cart-badge">0</span>
+                <svg class="cart">
                     <use xlink:href="#cart"></use>
                 </svg>
             </div>
+            </a>
         </div>
     </div>
 </nav>
