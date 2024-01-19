@@ -13,8 +13,7 @@ $.getJSON('products.json', function(data){
  
   checkCart();
   showCart();
-
- 
+  
    function showCart(){
     if($.isEmptyObject(cart)){
         let out ='<p class="add__cart">Кошик порожній. Додайте товар до кошика <span class="home__cart">&#62;</span> <a class="link__cart" href="index.html">Головна сторінка</a></p>';
