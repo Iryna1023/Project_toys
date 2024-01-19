@@ -1,4 +1,4 @@
- .header {
+.header {
       position: relative;
       z-index: 1;
   }
@@ -16,6 +16,10 @@
       gap: 6px;
       position: relative;
       background-color: #3e8e41;
+  }
+  .admin__icon{
+    width: 30px;
+    height: 30px;
   }
   .title__logo{
     font-family: Bungee Spice;
@@ -279,7 +283,7 @@
 }
 .cart-badge{
     position: absolute;
-    right: 60px;
+    right: 39px;
     top: 33%;
     transform: translateY(-50%);
     color: aliceblue;
