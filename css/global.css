@@ -44,15 +44,12 @@ a {
   text-decoration: none;
 }
 
-/*.fixed {
-  position: fixed;
-}*/
-
 body {
   background: rgb(225,255,255);
   height: 100%; 
   color: var(--color-title);
   font-family: var(--body-fonts);
+  
 }
 
 p{
@@ -64,7 +61,7 @@ p{
   max-width: 1200px;
   padding: 0px 15px;
   margin: auto; 
- 
+  height: 100%;
 }
 
 svg {
