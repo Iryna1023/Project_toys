@@ -1,0 +1,10 @@
+
+.item__radio{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    grid-row-gap: 60px;
+    color: black;
+    margin-top: 70px;
+    
+  }
