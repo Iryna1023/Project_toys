@@ -9,8 +9,14 @@
     flex: 1;
     padding: 8px;
     font-size: 16px;
+    color: black;
   }
-
+  #delButton {
+    padding: 5px;
+    font-size: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
   #searchButton {
     padding: 8px;
     font-size: 16px;
@@ -21,3 +27,32 @@
     width: 20px;
     height: 38px;
  }
+
+ #searchResults {
+  position: absolute;
+  width: 460зч;
+  max-height: 100%;
+  overflow-y: auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: black;
+  border-top: none;
+  z-index: 1;
+  margin-top: 40px;
+}
+
+#searchResults ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#searchResults li {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+
+#searchResults li:hover {
+  background-color: #f0f0f0;
+}
