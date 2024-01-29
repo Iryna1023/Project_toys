@@ -1,19 +1,23 @@
   .header {
-      position: relative;
+     /* position: relative;*/
       z-index: 1;
+     display: flex;
+      justify-content: center;
   }
   
   .header a {
       text-decoration: none;
       color: #fff;
   }
-
+  .header__admin img{
+    cursor: pointer;
+  }
   .header__nav {
       padding: 0 45px;
       display: flex;
       align-items: center;
       justify-content: space-around;
-      gap: 6px;
+      gap: 40px;
       position: relative;
       background-color: #3e8e41;
   }
@@ -283,14 +287,14 @@
 }
 .cart-badge{
     position: absolute;
-    right: 39px;
+    right: 27px;
     top: 33%;
     transform: translateY(-50%);
     color: aliceblue;
     background-color: rgb(253, 127, 10);
     border-radius: 50%;
-    min-height: 14px;
-    min-width: 14px;
+    height: 19px;
+    width: 17px;
     display: inline-flex;
     align-items: center;
     justify-content: center;

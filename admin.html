@@ -18,53 +18,54 @@
       <button type="button" class="close">x</button>
     </div>
       <section class="section">
-        <input type="text" class="i-1" id="articleInput" placeholder="  Артикул">
+        <input type="text" name="id" class="i-1" id="articleInput" placeholder=" id" value="">
       </section>
       <section class="section">
-        <input type="text" class="i-1" id="nameInput" placeholder="  Назва товару">
+        <input type="text" name="name" class="i-1" id="nameInput" placeholder="  Назва товару" value="">
       </section>
       <section class="section">
-        <input type="text" class="i-1" id="descriptionInput" placeholder="  Опис">
+        <input type="text" name="number" class="i-1" id="nameInput" placeholder="  Артикул" value="">
       </section>
       <section class="section">
-        <input type="number" class="i-1" id="priceInput" placeholder="  Ціна">
+        <input type="text" name="description" class="i-1" id="descriptionInput" placeholder="  Опис" value="">
       </section>
       <section class="section">
-        <input type="file"  class="i-1" id="avatar" id="avatar" placeholder="  Картинка" name="avatar" accept="image/png, image/jpeg" />
+        <input type="number" name="cost" class="i-1" id="priceInput" placeholder="  Ціна" value="">
+      </section>
+      <section class="section">
+        <input type="file"  name="image" class="i-1" id="imageInput"  placeholder="  Картинка" accept="image/png, image/jpeg" />
       </section>
       <div class="section__box">
         <select id="pageSelect" class="page-select">
-        <option value="./education.partial.html">Розвиваючі іграшки</option>
-        <option value="logic">Дерев'яні іграшки</option>
-        <option value="logic">Головоломки</option>
-        <option value="laptop">Комп'ютери, ноутбуки</option>
-      </select>
-        <select id="pageSelect" class="page-select">
-        <option value="./toys-for-girls.partial.html">Товари для дівчаток</option>
+        <option>Вибрати категорію</option> 
+        <option class="category" value="./education.partial.html">Розвиваючі іграшки</option>
+        <option value="educationsTree">Дерев'яні іграшки</option>
+        <option value="logics">Головоломки</option>
+        <option value="laptops">Комп'ютери, ноутбуки</option>
+      
+        <option class="category" value="./toys-for-girls.partial.html">Товари для дівчаток</option>
         <option value="Dolls">Ляльки та пупси</option>
         <option value="Cosmetics">Косметика</option>
         <option value="Kitchen">Посуд та кухні</option>
         <option value="Heir">Перукарські набори</option>
-        </select>
-      <select id="pageSelect" class="page-select">
-        <option value="./toys-for-boys.partial.html">Товари для хлопчиків</option>
+       
+        <option class="category" value="./toys-for-boys.partial.html">Товари для хлопчиків</option>
         <option value="Constructor">Конструктори</option>
         <option value="Robot">Роботи</option>
         <option value="Radio">Радіокеровані моделі</option>
         <option value="Parking">Паркінги,трекі</option>
-      </select>
-      <select id="pageSelect" class="page-select">
-        <option value="./bike.html">Велосипеди</option>
+      
+        <option class="category" value="./bike.html">Велосипеди</option>
         <option value="bike-2">Велосипеди двоколісні</option>
         <option value="bike-3">Велосипеди триколісні</option>
-      </select>
-      <select id="pageSelect" class="page-select">
-        <option value="./electro.partial.html">Електромобілі</option>
+     
+        <option class="category" value="./electro.partial.html">Електромобілі</option>
         <option value="quat-bike">Квадроцикли</option>
         <option value="jeep">Джипи</option>
       </select>
       </div>
-      <button type="button" class="b-1" id="add">Додати</button>
+      <button class="b-1"  id="add">Додати</button>
+      <button class="b-2"  id="del">Видалити</button>
     </div>
   </div>
   </div>      

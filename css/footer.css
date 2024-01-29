@@ -2,9 +2,9 @@
     width: 100%;
     padding: 0 24px;
     background-color: #3e8e41;
-    height: 55px;
-    margin-top: 200px;
-    
+    height: 100%;
+   margin-top: 200px;
+   flex: 0 0 auto;
    
 }
 
@@ -19,7 +19,7 @@
     padding: 0;
     border: 0;
     vertical-align: baseline;
-    margin-top: 550px;
+   /* margin-top: 550px;*/
 }
 
 .footer__column {

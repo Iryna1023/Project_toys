@@ -1,4 +1,4 @@
-let cart= {};  // кошик
+let cart= {}; 
 
 $('document').ready(function(){
     loadProducts();
@@ -7,11 +7,11 @@ $('document').ready(function(){
 });
 
 function loadProducts(){
-    //загружаю товари
+
     $.getJSON('products.json', function(data){
-       /*console.log(data);*/
+
       let out = '';
-      for (let key in data['logics'] ){      // перебор масива або обьекта 
+      for (let key in data['logics'] ){   
           out+='<div class="item__box">';
           out+='<img class="item__image product-image" src="'+data['logics'][key].image+'" alt="#">';  
           out+='<div class="model__item">';
@@ -36,28 +36,39 @@ function loadProducts(){
 }
 
 function addToCart() {
-  // додаєм товар в кошик
-    let articul = $(this).attr('data-art');  //this це кнопка яку ми нажимаєм ,читаєм її артикул
+
+    let articul = $(this).attr('data-art'); 
     if(cart[articul]!=undefined){
       cart[articul]++;
     }else{
       cart[articul] = 1;
     }
    localStorage.setItem('cart',JSON.stringify(cart));
-   /* console.log(cart);*/
+
     showMiniCart();
 }
 function checkCart() {
-  // провірка наявність кошика в localStorage
-   if(localStorage.getItem('cart') != null){            // якщо в локал щось є і воно не рівно 0
-       cart = JSON.parse(localStorage.getItem('cart'));   //то ми додаєм в карт те що є в кошику
+
+   if(localStorage.getItem('cart') != null){         
+       cart = JSON.parse(localStorage.getItem('cart')); 
    }  
 }
 function showMiniCart() {
-  // показуєм  кількість доданих товарів дл кошика
+  
       let totalQuantity = 0;
       for (let key in cart) {
         totalQuantity += cart[key];
       }
       $('.cart-badge').html(totalQuantity);  
 }
+
+const storageKey = 'products.json';
+function writeLocalStorage(data) {
+  localStorage.setItem(storageKey, JSON.stringify(data));
+}
+
+localStorage.getItem(JSON.stringify(storageKey));
+let div = document.querySelector('.item__box');
+div = storageKey;
+
+

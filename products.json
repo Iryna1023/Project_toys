@@ -1,223 +1,1168 @@
 {
-
-      "educations-tree":{
-            "C39032": {
-                       "name" : "Дерев'яні Пазли Розвиваючі",
-                       "cost" : 25,
-                       "model" : "Модель",
-                       "number" : "C39032",
-                       "descpription" : "Дерев'яні Пазли Розвиваючі",
-                       "image" : "img/education-toys/tree-toys/102687.jpg",
-                       "buy" : "Купити"
-                  },
-           
-                  "C31384": {
-                       "name" : "Бізіборд Веселий паровозик",
-                       "cost" : 500,
-                       "model" : "Модель",
-                       "number" : "C31384",
-                       "descpription" : "Бізіборд Веселий паровозик",
-                       "image" : "img/education-toys/tree-toys/172497.jpg",
-                       "buy" : "Купити"
-                  },
-       
-                  "C37154":{
-                        "name" : "Бізіборд дерев'яний Кошеня",
-                        "cost" : 495,
-                        "model" : "Модель",
-                        "number" : "C37154",
-                        "descpription" : "Бізіборд дерев'яний Кошеня",
-                        "image" : "img/education-toys/tree-toys/172500.jpg",
-                        "buy" : "Купити"
-                   },
-       
-                   "C49401": {
-                        "name" : "Бізіборд дерев'яний Розвиваючий",
-                        "cost" : 720,
-                        "model" : "Модель",
-                        "number" : "C49401",
-                        "descpription" : "Бізіборд дерев'яний Розвиваючий",
-                        "image" : "img/education-toys/tree-toys/172502.jpg",
-                        "buy" : "Купити"
-                  },
-       
-                  "M02999":{
-                        "name" : "Бізіборд дерев'яний Замочки",
-                        "cost" : 445,
-                        "model" : "Модель",
-                        "number" : "M02999",
-                        "descpription" : "Бізіборд дерев'яний Замочки",
-                        "image" : "img/education-toys/tree-toys/172539.jpg",
-                        "buy" : "Купити"
-                  },
-       
-                  "MD0061": {
-                        "name" : "Дерев'яна розвиваюча іграшка Пірамідка-ключ",
-                        "cost" : 180,
-                        "model" : "Модель",
-                        "number" : "MD0061",
-                        "descpription" : "Дерев'яна  розвиваюча іграшка Пірамідка-ключ",
-                        "image" : "img/education-toys/tree-toys/172618.jpg",
-                        "buy" : "Купити"
-                  },
-       
-                  "MD1936": {
-                       "name" : "Дерев'яна іграшка Балансир кільця",
-                       "cost" : 190,
-                       "model" : "Модель",
-                       "number" : "MD1936",
-                       "description" : "Дерев'яна іграшка Балансир кільця",
-                       "image" : "img/education-toys/tree-toys/173006.jpg",
-                       "buy" : "Купити"
-                  },
-       
-                  "MD2336":  {
-                       "name" : "Дерев'яна іграшка Гра Вежа",
-                       "cost" : 250,
-                       "model" : "Модель",
-                       "number" : "MD2336",
-                       "description" : "Дерев'яна іграшка Гра Вежа",
-                       "image" : "img/education-toys/tree-toys/173010.jpg",
-                        "buy" : "Купити"
-                  },
-       
-                  "MD 1647":  {
-                        "name" : "Дерев'яна іграшка Центр розвиваючий",
-                        "cost" : 600,
-                        "model" : "Модель",
-                        "number" : "MD 1647",
-                        "description" : "Дерев'яна іграшка Центр розвиваючий",
-                        "image" : "img/education-toys/tree-toys/102687.jpg",
-                        "buy" : "Купити"
-                  }
-       
-},
-       
-       "logics": {
-             
-            
-            "2068":  {
-                        "name" : "Головоломка куб",
-                        "cost" : 280,
-                        "model" : "Модель",
-                        "number" : "2068",
-                        "description" : "Головоломка куб",
-                        "image" : "img/education-toys/logik/138057.jpg",
-                        "buy" : "Купити"
-                  },
-                      
-                  "96788": {
-                        "name" : "Головоломка лабіринт",
-                        "cost" : 350,
-                        "model" : "Модель",
-                        "number" : "96788",
-                        "description" : "Головоломка лабіринт",
-                        "image" : "img/education-toys/logik/138059.jpg",
-                        "buy" : "Купити"
-                  },
-                  
-                  "C48512":   {
-                        "name" : "Головоломка-антистресс",
-                        "cost" : 95,
-                        "model" : "Модель",
-                        "number" : "C48512",
-                        "description" : "Головоломка-антистресс",
-                        "image" : "img/education-toys/logik/142471.jpg",
-                        "buy" : "Купити"
-                  },
-                  
-                  "C48508":  {
-                        "name" : "Головоломка спіннер антистрес",
-                        "cost" : 50,
-                        "model" : "Модель",
-                        "number" : "C48508",
-                        "description" : "Головоломка спіннер антистрес",
-                        "image" : "img/education-toys/logik/142487.jpg",
-                        "buy" : "Купити"
-                  },
-                  
-                  "A5563-10":  {
-                        "name" : "Логіка-змійка в кор.",
-                        "cost" : 170,
-                        "model" : "Модель",
-                        "number" : "A5563-10",
-                        "description" : "Логіка-змійка в кор.",
-                        "image" : "img/education-toys/logik/169817.jpg",
-                        "buy" : "Купити"
-                  }         
- },
-      
-       "laptops":{
-      
-            "KH01/002":{
-                       "name" : "Планшет Kids Hits ",
-                       "cost" : 350,
-                       "model" : "Модель",
-                       "number" : "KH01/002",
-                       "description" : "Планшет Kids Hits ",
-                       "image" : "img/education-toys/laptop/169573.jpg",
-                       "buy" : "Купити"
-                  },
-                
-                  "23556":   {
-                      "name" : "Ноутбук дитячий WToys",
-                      "cost" : 1100,
-                      "model" : "Модель",
-                      "number" : "23556",
-                      "description" : "Ноутбук дитячий WToys",
-                      "image" : "img/education-toys/laptop/171604.jpg",
-                      "buy" : "Купити"
-                  },
-            
-                  "KH02/001":  {
-                       "name" : "Планшет Kids Hits Веселе цуценя",
-                       "cost" : 450,
-                       "model" : "Модель",
-                       "number" : "KH02/001",
-                       "description" : "Планшет Kids Hits Веселе цуценя",
-                       "image" : "img/education-toys/laptop/173540.jpg",
-                       "buy" : "Купити"
-                  },
-            
-                  "SK0036ABC":  {
-                        "name" : "Планшет навчальний",
-                        "cost" : 150,
-                        "model" : "Модель",
-                        "number" : "SK0036ABC",
-                        "description" : "Планшет навчальний",
-                        "image" : "img/education-toys/laptop/173767.jpg",
-                        "buy" : "Купити"
-                  },
-            
-                  "M3811":  {
-                        "name" : "Планшет ферма",
-                        "cost" : 180,
-                        "model" : "Модель",
-                        "number" : "M3811",
-                        "description" : "Планшет ферма",
-                        "image" : "img/education-toys/laptop/174019.jpg",
-                        "buy" : "Купити"
-                  },
-            
-                  "TK55100": {
-                        "name" : "Навчальний планшет WToys",
-                        "cost" : 480,
-                        "model" : "Модель",
-                        "number" : "TK55100",
-                        "description" : "Навчальний планшет WToys",
-                        "image" : "img/education-toys/laptop/174441.jpg",
-                        "buy" : "Купити"
-                  },
-            
-                  "TK55101": {
-                        "name" : "Навчальний планшет WToys",
-                        "cost" : 480,
-                        "model" : "Модель",
-                        "number" : "TK55101",
-                        "description" : "Навчальний планшет WToys",
-                        "image" : "img/education-toys/laptop/174442.jpg",
-                        "buy" : "Купити"
-                  }
-}
+  "educationsTree": {
+    "C39032": {
+      "name": "Дерев'яні Пазли Розвиваючі",
+      "category": "educationsTree",
+      "cost": 25,
+      "model": "Модель",
+      "number": "C39032",
+      "description": "Дерев'яні Пазли Розвиваючі",
+      "image": "img/education-toys/tree-toys/102687.jpg",
+      "buy": "Купити"
+    },
+    "C31384": {
+      "name": "Бізіборд Веселий паровозик",
+      "category": "educationsTree",
+      "cost": 500,
+      "model": "Модель",
+      "number": "C31384",
+      "description": "Бізіборд Веселий паровозик",
+      "image": "img/education-toys/tree-toys/172497.jpg",
+      "buy": "Купити"
+    },
+    "C37154": {
+      "name": "Бізіборд дерев'яний Кошеня",
+      "category": "educationsTree",
+      "cost": 495,
+      "model": "Модель",
+      "number": "C37154",
+      "description": "Бізіборд дерев'яний Кошеня",
+      "image": "img/education-toys/tree-toys/172500.jpg",
+      "buy": "Купити"
+    },
+    "C49401": {
+      "name": "Бізіборд дерев'яний Розвиваючий",
+      "category": "educationsTree",
+      "cost": 720,
+      "model": "Модель",
+      "number": "C49401",
+      "description": "Бізіборд дерев'яний Розвиваючий",
+      "image": "img/education-toys/tree-toys/172502.jpg",
+      "buy": "Купити"
+    },
+    "M02999": {
+      "name": "Бізіборд дерев'яний Замочки",
+      "category": "educationsTree",
+      "cost": 445,
+      "model": "Модель",
+      "number": "M02999",
+      "description": "Бізіборд дерев'яний Замочки",
+      "image": "img/education-toys/tree-toys/172539.jpg",
+      "buy": "Купити"
+    },
+    "MD0061": {
+      "name": "Дерев'яна розвиваюча іграшка Пірамідка-ключ",
+      "category": "educationsTree",
+      "cost": 180,
+      "model": "Модель",
+      "number": "MD0061",
+      "description": "Дерев'яна  розвиваюча іграшка Пірамідка-ключ",
+      "image": "img/education-toys/tree-toys/172618.jpg",
+      "buy": "Купити"
+    },
+    "MD1936": {
+      "name": "Дерев'яна іграшка Балансир кільця",
+      "category": "educationsTree",
+      "cost": 190,
+      "model": "Модель",
+      "number": "MD1936",
+      "description": "Дерев'яна іграшка Балансир кільця",
+      "image": "img/education-toys/tree-toys/173006.jpg",
+      "buy": "Купити"
+    },
+    "MD2336": {
+      "name": "Дерев'яна іграшка Гра Вежа",
+      "category": "educationsTree",
+      "cost": 250,
+      "model": "Модель",
+      "number": "MD2336",
+      "description": "Дерев'яна іграшка Гра Вежа",
+      "image": "img/education-toys/tree-toys/173010.jpg",
+      "buy": "Купити"
+    },
+    "MD 1647": {
+      "name": "Дерев'яна іграшка Центр розвиваючий",
+      "category": "educationsTree",
+      "cost": 600,
+      "model": "Модель",
+      "number": "MD 1647",
+      "description": "Дерев'яна іграшка Центр розвиваючий",
+      "image": "img/education-toys/tree-toys/102687.jpg",
+      "buy": "Купити"
+    }
+  },
+  "logics": {
+    "2068": {
+      "name": "Головоломка куб",
+      "category": "logics",
+      "cost": 280,
+      "model": "Модель",
+      "number": "2068",
+      "description": "Головоломка куб",
+      "image": "img/education-toys/logik/138057.jpg",
+      "buy": "Купити"
+    },
+    "96788": {
+      "name": "Головоломка лабіринт",
+      "category": "logics",
+      "cost": 350,
+      "model": "Модель",
+      "number": "96788",
+      "description": "Головоломка лабіринт",
+      "image": "img/education-toys/logik/138059.jpg",
+      "buy": "Купити"
+    },
+    "C48512": {
+      "name": "Головоломка-антистресс",
+      "category": "logics",
+      "cost": 95,
+      "model": "Модель",
+      "number": "C48512",
+      "description": "Головоломка-антистресс",
+      "image": "img/education-toys/logik/142471.jpg",
+      "buy": "Купити"
+    },
+    "C48508": {
+      "name": "Головоломка спіннер антистрес",
+      "category": "logics",
+      "cost": 50,
+      "model": "Модель",
+      "number": "C48508",
+      "description": "Головоломка спіннер антистрес",
+      "image": "img/education-toys/logik/142487.jpg",
+      "buy": "Купити"
+    },
+    "A5563-10": {
+      "name": "Логіка-змійка в кор.",
+      "category": "logics",
+      "cost": 170,
+      "model": "Модель",
+      "number": "A5563-10",
+      "description": "Логіка-змійка в кор.",
+      "image": "img/education-toys/logik/169817.jpg",
+      "buy": "Купити"
+    }
+  },
+  "laptops": {
+    "23556": {
+      "name": "Ноутбук дитячий WToys",
+      "category": "laptops",
+      "cost": 1100,
+      "model": "Модель",
+      "number": "23556",
+      "description": "Ноутбук дитячий WToys",
+      "image": "img/education-toys/laptop/171604.jpg",
+      "buy": "Купити"
+    },
+    "KH01/002": {
+      "name": "Планшет Kids Hits ",
+      "category": "laptops",
+      "cost": 350,
+      "model": "Модель",
+      "number": "KH01/002",
+      "description": "Планшет Kids Hits ",
+      "image": "img/education-toys/laptop/169573.jpg",
+      "buy": "Купити"
+    },
+    "KH02/001": {
+      "name": "Планшет Kids Hits Веселе цуценя",
+      "category": "laptops",
+      "cost": 450,
+      "model": "Модель",
+      "number": "KH02/001",
+      "description": "Планшет Kids Hits Веселе цуценя",
+      "image": "img/education-toys/laptop/173540.jpg",
+      "buy": "Купити"
+    },
+    "SK0036ABC": {
+      "name": "Планшет навчальний",
+      "category": "laptops",
+      "cost": 150,
+      "model": "Модель",
+      "number": "SK0036ABC",
+      "description": "Планшет навчальний",
+      "image": "img/education-toys/laptop/173767.jpg",
+      "buy": "Купити"
+    },
+    "M3811": {
+      "name": "Планшет ферма",
+      "category": "laptops",
+      "cost": 180,
+      "model": "Модель",
+      "number": "M3811",
+      "description": "Планшет ферма",
+      "image": "img/education-toys/laptop/174019.jpg",
+      "buy": "Купити"
+    },
+    "TK55100": {
+      "name": "Навчальний планшет WToys",
+      "category": "laptops",
+      "cost": 480,
+      "model": "Модель",
+      "number": "TK55100",
+      "description": "Навчальний планшет WToys",
+      "image": "img/education-toys/laptop/174441.jpg",
+      "buy": "Купити"
+    },
+    "TK55101": {
+      "name": "Навчальний планшет WToys",
+      "category": "laptops",
+      "cost": 480,
+      "model": "Модель",
+      "number": "TK55101",
+      "description": "Навчальний планшет WToys",
+      "image": "img/education-toys/laptop/174442.jpg",
+      "buy": "Купити"
+    }
+  },
+  "dolls": {
+    "2512": {
+      "name": "Голова для мікс 4 види",
+      "category": "dolls",
+      "cost": 170,
+      "model": "Модель",
+      "number": "2512",
+      "description": "Голова для мікс 4 види",
+      "image": "img/toys-for-girls/dolls/173149.jpg",
+      "buy": "Купити"
+    },
+    "7538": {
+      "name": "Лялька",
+      "category": "dolls",
+      "cost": 570,
+      "model": "Модель",
+      "number": "7538",
+      "description": "Лялька",
+      "image": "img/toys-for-girls/dolls/174803.jpg",
+      "buy": "Купити"
+    },
+    "YT040-11": {
+      "name": "Пупс CRY BABIES",
+      "category": "dolls",
+      "cost": 280,
+      "model": "Модель",
+      "number": "YT040-11",
+      "description": "Пупс CRY BABIES",
+      "image": "img/toys-for-girls/dolls/104033.jpg",
+      "buy": "Купити"
+    },
+    "B369-115": {
+      "name": "Лялька-манекен",
+      "category": "dolls",
+      "cost": 350,
+      "model": "Модель",
+      "number": "B369-115",
+      "description": "Лялька-манекен",
+      "image": "img/toys-for-girls/dolls/115177.jpg",
+      "buy": "Купити"
+    },
+    "EY2430": {
+      "name": "Лялька L.Q.L Tweens",
+      "category": "dolls",
+      "cost": 450,
+      "model": "Модель",
+      "number": "EY2430",
+      "description": "Лялька L.Q.L Tweens",
+      "image": "img/toys-for-girls/dolls/144825.jpg",
+      "buy": "Купити"
+    },
+    "EY2431": {
+      "name": "Лялька L.Q.L Tweens",
+      "category": "dolls",
+      "cost": 400,
+      "model": "Модель",
+      "number": "EY2431",
+      "description": "Лялька L.Q.L Tweens",
+      "image": "img/toys-for-girls/dolls/144826.jpg",
+      "buy": "Купити"
+    },
+    "KH33/002": {
+      "name": "Лялька Beauty Star, Gamer Tech",
+      "category": "dolls",
+      "cost": 1300,
+      "model": "Модель",
+      "number": "KH33/002",
+      "description": "Лялька Beauty Star, Gamer Tech",
+      "image": "img/toys-for-girls/dolls/173163.jpg",
+      "buy": "Купити"
+    },
+    "DYBB-14": {
+      "name": "Лялька",
+      "category": "dolls",
+      "cost": 170,
+      "model": "Модель",
+      "number": "DYBB-14",
+      "description": "Лялька",
+      "image": "img/toys-for-girls/dolls/174879.jpg",
+      "buy": "Купити"
+    },
+    "K311X3": {
+      "name": "Лялька",
+      "category": "dolls",
+      "cost": 170,
+      "model": "Модель",
+      "number": "K311X3",
+      "description": "Лялька",
+      "image": "img/toys-for-girls/dolls/175080.jpg",
+      "buy": "Купити"
+    }
+  },
+  "cosmetics": {
+    "GFN6F4": {
+      "name": "Косметика",
+      "category": "cosmetics",
+      "cost": 65,
+      "model": "Модель",
+      "number": "GFN6F4",
+      "description": "Косметика",
+      "image": "img/toys-for-girls/cosmetics/163522.jpg",
+      "buy": "Купити"
+    },
+    "JHCF355": {
+      "name": "Косметика",
+      "category": "cosmetics",
+      "cost": 90,
+      "model": "Модель",
+      "number": "JHCF355",
+      "description": "Косметика",
+      "image": "img/toys-for-girls/cosmetics/163523.jpg",
+      "buy": "Купити"
+    },
+    "RH4SS0": {
+      "name": "Косметика",
+      "category": "cosmetics",
+      "cost": 50,
+      "model": "Модель",
+      "number": "RH4SS0",
+      "description": "Косметика",
+      "image": "img/toys-for-girls/cosmetics/169775.jpg",
+      "buy": "Купити"
+    },
+    "AVV9D0": {
+      "name": "Набір косметики",
+      "category": "cosmetics",
+      "cost": 95,
+      "model": "Модель",
+      "number": "AVV9D0",
+      "description": "Набір косметики",
+      "image": "img/toys-for-girls/cosmetics/169779.jpg",
+      "buy": "Купити"
+    },
+    "555CD": {
+      "name": "Косметика",
+      "category": "cosmetics",
+      "cost": 70,
+      "model": "Модель",
+      "number": "555CD",
+      "description": "Косметика",
+      "image": "img/toys-for-girls/cosmetics/171010.jpg",
+      "buy": "Купити"
+    },
+    "SCK35": {
+      "name": "Набір косметики",
+      "category": "cosmetics",
+      "cost": 110,
+      "model": "Модель",
+      "number": "SCK35",
+      "description": "Набір косметики",
+      "image": "img/toys-for-girls/cosmetics/174691.jpg",
+      "buy": "Купити"
+    },
+    "4G8F": {
+      "name": "Косметика",
+      "category": "cosmetics",
+      "cost": 110,
+      "model": "Модель",
+      "number": "4G8F",
+      "description": "Косметика",
+      "image": "img/toys-for-girls/cosmetics/175069.jpg",
+      "buy": "Купити"
+    }
+  },
+  "kitchens": {
+    "545444": {
+      "name": "Набір посуду",
+      "category": "kitchens",
+      "cost": 100,
+      "model": "Модель",
+      "number": "545444",
+      "description": "Набір посуду",
+      "image": "img/toys-for-girls/kitchen/001210.jpg",
+      "buy": "Купити"
+    },
+    "JHCF3LKI": {
+      "name": "Кухня",
+      "category": "kitchens",
+      "cost": 190,
+      "model": "Модель",
+      "number": "JHCF3LKI",
+      "description": "Кухня",
+      "image": "img/toys-for-girls/kitchen/041026.jpg",
+      "buy": "Купити"
+    },
+    "DIK86W": {
+      "name": "Набір посуду",
+      "category": "kitchens",
+      "cost": 250,
+      "model": "Модель",
+      "number": "DIK86W",
+      "description": "Набір посуду",
+      "image": "img/toys-for-girls/kitchen/106568.jpg",
+      "buy": "Купити"
+    },
+    "AV549D0": {
+      "name": "Набір косметики",
+      "category": "kitchens",
+      "cost": 200,
+      "model": "Модель",
+      "number": "AV549D0",
+      "description": "Набір косметики",
+      "image": "img/toys-for-girls/kitchen/155007.jpg",
+      "buy": "Купити"
+    },
+    "94GOL4": {
+      "name": "Кухня",
+      "category": "kitchens",
+      "cost": 370,
+      "model": "Модель",
+      "number": "94GOL4",
+      "description": "Кухня",
+      "image": "img/toys-for-girls/kitchen/50851.jpg",
+      "buy": "Купити"
+    },
+    "KR600XE": {
+      "name": "Набір посуду",
+      "category": "kitchens",
+      "cost": 180,
+      "model": "Модель",
+      "number": "KR600XE",
+      "description": "Набір посуду",
+      "image": "img/toys-for-girls/kitchen/56545.jpg",
+      "buy": "Купити"
+    }
+  },
+  "heir": {
+    "HV2L/DH": {
+      "name": "Набір для перукаря",
+      "category": "heir",
+      "cost": 140,
+      "model": "Модель",
+      "number": "HV2L/DH",
+      "description": "Набір для перукаря",
+      "image": "img/toys-for-girls/heir/073061.jpg",
+      "buy": "Купити"
+    },
+    "KJ0EDB2": {
+      "name": "Набір для перукаря",
+      "category": "heir",
+      "cost": 190,
+      "model": "Модель",
+      "number": "KJ0EDB2",
+      "description": "Набір для перукаря",
+      "image": "img/toys-for-girls/heir/169464.jpg",
+      "buy": "Купити"
+    },
+    "JKJ054D": {
+      "name": "Набір для перукаря",
+      "category": "heir",
+      "cost": 250,
+      "model": "Модель",
+      "number": "JKJ054D",
+      "description": "Набір для перукаря",
+      "image": "img/toys-for-girls/heir/172793.jpg",
+      "buy": "Купити"
+    },
+    "56JJ82": {
+      "name": "Набір для перукаря",
+      "category": "heir",
+      "cost": 80,
+      "model": "Модель",
+      "number": "56JJ82",
+      "description": "Набір для перукаря",
+      "image": "img/toys-for-girls/heir/174014.jpg",
+      "buy": "Купити"
+    },
+    "JDW510N": {
+      "name": "Набір для перукаря",
+      "category": "heir",
+      "cost": 370,
+      "model": "Модель",
+      "number": "JDW510N",
+      "description": "Набір для перукаря",
+      "image": "img/toys-for-girls/heir/174250.jpg",
+      "buy": "Купити"
+    }
+  },
+  "constructors": {
+    "2512": {
+      "name": "Конструктор",
+      "category": "constructors",
+      "cost": 170,
+      "model": "Модель",
+      "number": "2512",
+      "description": "Конструктор",
+      "image": "img/toys-for-boys/constructor/173228.jpg",
+      "buy": "Купити"
+    },
+    "7538": {
+      "name": "Конструктор",
+      "category": "constructors",
+      "cost": 200,
+      "model": "Модель",
+      "number": "7538",
+      "description": "Конструктор",
+      "image": "img/toys-for-boys/constructor/174297.jpg",
+      "buy": "Купити"
+    },
+    "YT04hg-51": {
+      "name": "Конструктор",
+      "category": "constructors",
+      "cost": 280,
+      "model": "Модель",
+      "number": "YT04hg-51",
+      "description": "Конструктор",
+      "image": "img/toys-for-boys/constructor/102450.jpg",
+      "buy": "Купити"
+    },
+    "HGHG55J": {
+      "name": "Конструктор",
+      "category": "constructors",
+      "cost": 350,
+      "model": "Модель",
+      "number": "HGHG55J",
+      "description": "Конструктор",
+      "image": "img/toys-for-boys/constructor/138168.jpg",
+      "buy": "Купити"
+    },
+    "EY2430": {
+      "name": "Конструктор",
+      "category": "constructors",
+      "cost": 450,
+      "model": "Модель",
+      "number": "EY2430",
+      "description": "Конструктор",
+      "image": "img/toys-for-boys/constructor/143160.jpg",
+      "buy": "Купити"
+    },
+    "EY2431": {
+      "name": "Конструктор",
+      "category": "constructors",
+      "cost": 400,
+      "model": "Модель",
+      "number": "EY2431",
+      "description": "Конструктор",
+      "image": "img/toys-for-boys/constructor/167605.jpg",
+      "buy": "Купити"
+    },
+    "KH33/002": {
+      "name": "Конструктор",
+      "category": "constructors",
+      "cost": 100,
+      "model": "Модель",
+      "number": "KH33/002",
+      "description": "Конструктор",
+      "image": "img/toys-for-boys/constructor/173869.jpg",
+      "buy": "Купити"
+    },
+    "DYBB-14": {
+      "name": "Конструктор",
+      "category": "constructors",
+      "cost": 170,
+      "model": "Модель",
+      "number": "DYBB-14",
+      "description": "Конструктор",
+      "image": "img/toys-for-boys/constructor/175048.jpg",
+      "buy": "Купити"
+    }
+  },
+  "robots": {
+    "545444": {
+      "name": "Робот",
+      "category": "robots",
+      "cost": 180,
+      "model": "Модель",
+      "number": "545444",
+      "description": "Робот",
+      "image": "img/toys-for-boys/robot/082744.jpg",
+      "buy": "Купити"
+    },
+    "JHCF3LH": {
+      "name": "Робот",
+      "category": "robots",
+      "cost": 290,
+      "model": "Модель",
+      "number": "JHCF3LH",
+      "description": "Робот",
+      "image": "img/toys-for-boys/robot/085642.jpg",
+      "buy": "Купити"
+    },
+    "RH54S0": {
+      "name": "Конструктор",
+      "category": "robots",
+      "cost": 250,
+      "model": "Модель",
+      "number": "RH54S0",
+      "description": "Конструктор",
+      "image": "img/toys-for-boys/robot/085961.jpg",
+      "buy": "Купити"
+    },
+    "AV549D0": {
+      "name": "Робот",
+      "category": "robots",
+      "cost": 290,
+      "model": "Модель",
+      "number": "AV549D0",
+      "description": "Робот",
+      "image": "img/toys-for-boys/robot/103676.jpg",
+      "buy": "Купити"
+    },
+    "555CD": {
+      "name": "Робот",
+      "category": "robots",
+      "cost": 370,
+      "model": "Модель",
+      "number": "555CD",
+      "description": "Робот",
+      "image": "img/toys-for-boys/robot/142630.jpg",
+      "buy": "Купити"
+    },
+    "SCK35": {
+      "name": "Робот",
+      "category": "robots",
+      "cost": 180,
+      "model": "Модель",
+      "number": "SCK35",
+      "description": "Робот",
+      "image": "img/toys-for-boys/robot/168951.jpg",
+      "buy": "Купити"
+    },
+    "H3LII": {
+      "name": "Робот",
+      "category": "robots",
+      "cost": 180,
+      "model": "Модель",
+      "number": "H3LII",
+      "description": "Робот",
+      "image": "img/toys-for-boys/robot/169351.jpg",
+      "buy": "Купити"
+    },
+    "DYBB-BVD": {
+      "name": "Робот",
+      "category": "robots",
+      "cost": 220,
+      "model": "Модель",
+      "number": "DYBB-BVD",
+      "description": "Робот",
+      "image": "img/toys-for-boys/robot/172667.jpg",
+      "buy": "Купити"
+    }
+  },
+  "radioCars": {
+    "HK533D": {
+      "name": "Кран",
+      "category": "radioCars",
+      "cost": 100,
+      "model": "Модель",
+      "number": "HK533D",
+      "description": "Кран",
+      "image": "img/toys-for-boys/radio-car/143551.jpg",
+      "buy": "Купити"
+    },
+    "KK-DDVG": {
+      "name": "Автомобіль",
+      "category": "radioCars",
+      "cost": 290,
+      "model": "Модель",
+      "number": "KK-DDVG",
+      "description": "Автомобіль",
+      "image": "img/toys-for-boys/radio-car/168627.jpg",
+      "buy": "Купити"
+    },
+    "548-FEGFJ": {
+      "name": "Автомобіль",
+      "category": "radioCars",
+      "cost": 250,
+      "model": "Модель",
+      "number": "548-FEGFJ",
+      "description": "Автомобіль",
+      "image": "img/toys-for-boys/radio-car/171471.jpg",
+      "buy": "Купити"
+    },
+    "EW8DH-DN3": {
+      "name": "Автомобіль",
+      "category": "radioCars",
+      "cost": 290,
+      "model": "Модель",
+      "number": "EW8DH-DN3",
+      "description": "Автомобіль",
+      "image": "img/toys-for-boys/radio-car/171475.jpg",
+      "buy": "Купити"
+    },
+    "98DDP-SS5": {
+      "name": "Екскаватор",
+      "category": "radioCars",
+      "cost": 370,
+      "model": "Модель",
+      "number": "98DDP-SS5",
+      "description": "Екскаватор",
+      "image": "img/toys-for-boys/radio-car/173800.jpg",
+      "buy": "Купити"
+    },
+    "BD-D6CC3": {
+      "name": "Автомобіль",
+      "category": "radioCars",
+      "cost": 180,
+      "model": "Модель",
+      "number": "BD-D6CC3",
+      "description": "Автомобіль",
+      "image": "img/toys-for-boys/radio-car/174255.jpg",
+      "buy": "Купити"
+    },
+    "D88S-HK": {
+      "name": "Літаючий спінер",
+      "category": "radioCars",
+      "cost": 230,
+      "model": "Модель",
+      "number": "D88S-HK",
+      "description": "Літаючий спінер",
+      "image": "img/toys-for-boys/radio-car/174776.jpg",
+      "buy": "Купити"
+    }
+  },
+  "parkingTrack": {
+    "GFN6F4H": {
+      "name": "Паркінг",
+      "category": "parkingTrack",
+      "cost": 265,
+      "model": "Модель",
+      "number": "GFN6F4H",
+      "description": "Паркінг",
+      "image": "img/toys-for-boys/parking/123991.jpg",
+      "buy": "Купити"
+    },
+    "JS-HW": {
+      "name": "Паркінг",
+      "category": "parkingTrack",
+      "cost": 190,
+      "model": "Модель",
+      "number": "JS-HW",
+      "description": "Паркінг",
+      "image": "img/toys-for-boys/parking/124000.jpg",
+      "buy": "Купити"
+    },
+    "D0-DGS": {
+      "name": "Паркінг",
+      "category": "parkingTrack",
+      "cost": 350,
+      "model": "Модель",
+      "number": "D0-DGS",
+      "description": "Паркінг",
+      "image": "img/toys-for-boys/parking/124409.jpg",
+      "buy": "Купити"
+    },
+    "UUSW-3K": {
+      "name": "Паркінг",
+      "category": "parkingTrack",
+      "cost": 325,
+      "model": "Модель",
+      "number": "UUSW-3K",
+      "description": "Паркінг",
+      "image": "img/toys-for-boys/parking/147785.jpg",
+      "buy": "Купити"
+    },
+    "HDDEP-54": {
+      "name": "Паркінг",
+      "category": "parkingTrack",
+      "cost": 370,
+      "model": "Модель",
+      "number": "HDDEP-54",
+      "description": "Паркінг",
+      "image": "img/toys-for-boys/parking/174655.jpg",
+      "buy": "Купити"
+    }
+  },
+  "twoWheeled": {
+    "SH-05TG": {
+      "name": "Велосипед 14\" дюймов 2-х колёсный \"Jet Set\"",
+      "category": "twoWheeled",
+      "cost": 2050,
+      "model": "Модель",
+      "number": "SH-05TG",
+      "description": "Велосипед 14\" дюймов 2-х колёсный \"Jet Set\"",
+      "image": "img/bike/two-wh/Y14211-500x500.jpg",
+      "buy": "Купити"
+    },
+    "ALY-74": {
+      "name": "Велосипед 14\" дюймов 2-х колёсный \"Jet Set\"",
+      "category": "twoWheeled",
+      "cost": 1540,
+      "model": "Модель",
+      "number": "ALY-74",
+      "description": "Велосипед 14\" дюймов 2-х колёсный \"Jet Set\"",
+      "image": "img/bike/two-wh/Y14221.jpg",
+      "buy": "Купити"
+    },
+    "UD-87JH": {
+      "name": "Велосипед 14\" дюймов 2-х колёсный \"Jet Set\"",
+      "category": "twoWheeled",
+      "cost": 1500,
+      "model": "Модель",
+      "number": "UD-87JH",
+      "description": "Велосипед 14\" дюймов 2-х колёсный \"Jet Set\"",
+      "image": "img/bike/two-wh/Y14223.jpg",
+      "buy": "Купити"
+    },
+    "EPS-5F": {
+      "name": "Велосипед 14\" дюймов 2-х колёсный \"Jet Set\"",
+      "category": "twoWheeled",
+      "cost": 1500,
+      "model": "Модель",
+      "number": "EPS-5F",
+      "description": "Велосипед 14\" дюймов 2-х колёсный \"Jet Set\"",
+      "image": "img/bike/two-wh/Y14251-1.jpg",
+      "buy": "Купити"
+    },
+    "AHE-29J": {
+      "name": "Велосипед 14\" дюймов 2-х колёсный \"Jet Set\"",
+      "category": "twoWheeled",
+      "cost": 1420,
+      "model": "Модель",
+      "number": "AHE-29J",
+      "description": "Велосипед 14\" дюймов 2-х колёсный \"Jet Set\"",
+      "image": "img/bike/two-wh/Y14253.jpg",
+      "buy": "Купити"
+    },
+    "LI4DF-29": {
+      "name": "Велосипед 14\" дюймов 2-х колёсный \"Jet Set\"",
+      "category": "twoWheeled",
+      "cost": 1270,
+      "model": "Модель",
+      "number": "LI4DF-29",
+      "description": "Велосипед 14\" дюймов 2-х колёсный \"Jet Set\"",
+      "image": "img/bike/two-wh/Y1494-1K.jpg",
+      "buy": "Купити"
+    },
+    "GWE-73N": {
+      "name": "Велосипед 14\" дюймов 2-х колёсный \"Jet Set\"",
+      "category": "twoWheeled",
+      "cost": 1290,
+      "model": "Модель",
+      "number": "GWE-73N",
+      "description": "Велосипед 14\" дюймов 2-х колёсный \"Jet Set\"",
+      "image": "img/bike/two-wh/Y1494.jpg",
+      "buy": "Купити"
+    },
+    "UAPS-300N": {
+      "name": "Велосипед 14\" дюймов 2-х колёсный \"Jet Set\"",
+      "category": "twoWheeled",
+      "cost": 1200,
+      "model": "Модель",
+      "number": "UAPS-300N",
+      "description": "Велосипед 14\" дюймов 2-х колёсный \"Jet Set\"",
+      "image": "img/bike/two-wh/Y16212.jpg",
+      "buy": "Купити"
+    },
+    "FSP-07K": {
+      "name": "Велосипед 14\" дюймов 2-х колёсный \"Jet Set\"",
+      "category": "twoWheeled",
+      "cost": 1320,
+      "model": "Модель",
+      "number": "FSP-07K",
+      "description": "Велосипед 14\" дюймов 2-х колёсный \"Jet Set\"",
+      "image": "img/bike/two-wh/Y16242S.jpg",
+      "buy": "Купити"
+    }
+  },
+  "threeWheeled": {
+    "SH-0FS": {
+      "name": "Велосипед",
+      "category": "threeWheeled",
+      "cost": 1550,
+      "model": "Модель",
+      "number": "SH-0FS",
+      "description": "Велосипед",
+      "image": "img/bike/three-wh/3197-M-1-03.jpg",
+      "buy": "Купити"
+    },
+    "QJK73-DK": {
+      "name": "Велосипед",
+      "category": "threeWheeled",
+      "cost": 1750,
+      "model": "Модель",
+      "number": "QJK73-DK",
+      "description": "Велосипед",
+      "image": "img/bike/three-wh/3197-M-2-01.jpg",
+      "buy": "Купити"
+    },
+    "VCB-LS9": {
+      "name": "Велосипед",
+      "category": "threeWheeled",
+      "cost": 2100,
+      "model": "Модель",
+      "number": "VCB-LS9",
+      "description": "Велосипед",
+      "image": "img/bike/three-wh/3197-M-2-02.jpg",
+      "buy": "Купити"
+    },
+    "AOWD-YR5": {
+      "name": "Велосипед",
+      "category": "threeWheeled",
+      "cost": 1560,
+      "model": "Модель",
+      "number": "AOWD-YR5",
+      "description": "Велосипед",
+      "image": "img/bike/three-wh/3648-M-2-04.jpg",
+      "buy": "Купити"
+    },
+    "DPE-6K": {
+      "name": "Велосипед",
+      "category": "threeWheeled",
+      "cost": 1250,
+      "model": "Модель",
+      "number": "DPE-6K",
+      "description": "Велосипед",
+      "image": "img/bike/three-wh/3650-M-1.jpg",
+      "buy": "Купити"
+    },
+    "WPJ-8D": {
+      "name": "Велосипед",
+      "category": "threeWheeled",
+      "cost": 1300,
+      "model": "Модель",
+      "number": "WPJ-8D",
+      "description": "Велосипед",
+      "image": "img/bike/three-wh/BS-4298-01.jpeg",
+      "buy": "Купити"
+    },
+    "JKQ-6D": {
+      "name": "Велосипед",
+      "category": "threeWheeled",
+      "cost": 1245,
+      "model": "Модель",
+      "number": "JKQ-6D",
+      "description": "Велосипед",
+      "image": "img/bike/three-wh/BS-9603.jpeg",
+      "buy": "Купити"
+    },
+    "LKQ0D6": {
+      "name": "Велосипед",
+      "category": "threeWheeled",
+      "cost": 2000,
+      "model": "Модель",
+      "number": "LKQ0D6",
+      "description": "Велосипед",
+      "image": "img/bike/three-wh/T-349-01.jpg",
+      "buy": "Купити"
+    },
+    "LTE07D": {
+      "name": "Велосипед",
+      "category": "threeWheeled",
+      "cost": 1240,
+      "model": "Модель",
+      "number": "LTE07D",
+      "description": "Велосипед",
+      "image": "img/bike/three-wh/T-349-02.jpg",
+      "buy": "Купити"
+    },
+    "LOQNN4": {
+      "name": "Велосипед",
+      "category": "threeWheeled",
+      "cost": 2100,
+      "model": "Модель",
+      "number": "LOQNN4",
+      "description": "Велосипед",
+      "image": "img/bike/three-wh/T-349.jpg",
+      "buy": "Купити"
+    }
+  },
+  "quadBike": {
+    "KH01/002": {
+      "name": "Квадроцикл",
+      "category": "quadBike",
+      "cost": 2350,
+      "model": "Модель",
+      "number": "KH01/002",
+      "description": "Квадроцикл",
+      "image": "img/electro/quad-bike/HB-EATV1000Q-3ST V2.jpg",
+      "buy": "Купити"
+    },
+    "KW02": {
+      "name": "Квадроцикл",
+      "category": "quadBike",
+      "cost": 1800,
+      "model": "Модель",
+      "number": "KW02",
+      "description": "Квадроцикл",
+      "image": "img/electro/quad-bike/HB-EATV1000Q-7ST V2.jpg",
+      "buy": "Купити"
+    },
+    "82-DDC7": {
+      "name": "Квадроцикл",
+      "category": "quadBike",
+      "cost": 2450,
+      "model": "Модель",
+      "number": "82-DDC7",
+      "description": "Квадроцикл",
+      "image": "img/electro/quad-bike/T-7318-01.jpg",
+      "buy": "Купити"
+    },
+    "D0Q7": {
+      "name": "Квадроцикл",
+      "category": "quadBike",
+      "cost": 4150,
+      "model": "Модель",
+      "number": "D0Q7",
+      "description": "Квадроцикл",
+      "image": "img/electro/quad-bike/T-7318-02.jpg",
+      "buy": "Купити"
+    },
+    "QCL94": {
+      "name": "Квадроцикл",
+      "category": "quadBike",
+      "cost": 7180,
+      "model": "Модель",
+      "number": "QCL94",
+      "description": "Квадроцикл",
+      "image": "img/electro/quad-bike/T-7318.jpg",
+      "buy": "Купити"
+    },
+    "S8HWJ": {
+      "name": "Квадроцикл",
+      "category": "quadBike",
+      "cost": 3480,
+      "model": "Модель",
+      "number": "S8HWJ",
+      "description": "Квадроцикл",
+      "image": "img/electro/quad-bike/T-733.jpg",
+      "buy": "Купити"
+    },
+    "HSSC8": {
+      "name": "Квадроцикл",
+      "category": "quadBike",
+      "cost": 4480,
+      "model": "Модель",
+      "number": "HSSC8",
+      "description": "Квадроцикл",
+      "image": "img/electro/quad-bike/T-737-01.jpg",
+      "buy": "Купити"
+    },
+    "KQICND-84H": {
+      "name": "Квадроцикл",
+      "category": "quadBike",
+      "cost": 4800,
+      "model": "Модель",
+      "number": "KQICND-84H",
+      "description": "Квадроцикл",
+      "image": "img/electro/quad-bike/T-737-03.jpg",
+      "buy": "Купити"
+    }
+  },
+  "jeep": {
+    "ERV8W": {
+      "name": "Джип",
+      "category": "jeep",
+      "cost": 5325,
+      "model": "Модель",
+      "number": "ERV8W",
+      "description": "Джип",
+      "image": "img/electro/jeep/3237EBLR-1.jpg",
+      "buy": "Купити"
+    },
+    "FELW8WD0": {
+      "name": "Джип",
+      "category": "jeep",
+      "cost": 6100,
+      "model": "Модель",
+      "number": "FELW8WD0",
+      "description": "Джип",
+      "image": "img/electro/jeep/3237EBLR-10.jpg",
+      "buy": "Купити"
+    },
+    "HSG6DJH": {
+      "name": "Джип",
+      "category": "jeep",
+      "cost": 5450,
+      "model": "Модель",
+      "number": "HSG6DJH",
+      "description": "Джип",
+      "image": "img/electro/jeep/3237EBLR-2-3.png",
+      "buy": "Купити"
+    },
+    "AOQ8N3": {
+      "name": "Джип",
+      "category": "jeep",
+      "cost": 5150,
+      "model": "Модель",
+      "number": "AOQ8N3",
+      "description": "Джип",
+      "image": "img/electro/jeep/3237EBLR-3.jpg",
+      "buy": "Купити"
+    },
+    "QPWB7D": {
+      "name": "Джип",
+      "category": "jeep",
+      "cost": 5180,
+      "model": "Модель",
+      "number": "QPWB7D",
+      "description": "Джип",
+      "image": "img/electro/jeep/4214EBLR-3.png",
+      "buy": "Купити"
+    },
+    "SLDUR8": {
+      "name": "Джип",
+      "category": "jeep",
+      "cost": 3480,
+      "model": "Модель",
+      "number": "SLDUR8",
+      "description": "Джип",
+      "image": "img/electro/jeep/4214EBLR-6.jpg",
+      "buy": "Купити"
+    },
+    "FD9EKJ": {
+      "name": "Джип",
+      "category": "jeep",
+      "cost": 4480,
+      "model": "Модель",
+      "number": "FD9EKJ",
+      "description": "Джип",
+      "image": "img/electro/jeep/JJ2022EBLR-1.png",
+      "buy": "Купити"
+    },
+    "BWJ55DH": {
+      "name": "Джип",
+      "category": "jeep",
+      "cost": 4480,
+      "model": "Модель",
+      "number": "BWJ55DH",
+      "description": "Джип",
+      "image": "img/electro/jeep/JJ2022EBLR-10.png",
+      "buy": "Купити"
+    }
+  },
+  "undefined": {
+    "undefined": {
+      "reviews": {
+        "_lbmrnb34l": {
+          "category": "reviews",
+          "name": "аа",
+          "text": "аа"
+        },
+        "_omdqdh055": {
+          "category": "reviews",
+          "name": "11",
+          "text": "11"
+        },
+        "_y0k4q27jt": {
+          "category": "reviews",
+          "name": "21",
+          "text": "21"
+        },
+        "_7jj6ogtir": {
+          "category": "reviews",
+          "name": "52",
+          "text": "52"
+        }
       }
-      
+    }
+  }
+}
