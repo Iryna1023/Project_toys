@@ -67,6 +67,30 @@ $(document).ready(function () {
       case 'heir':
         pageUrl = './heir.html';
         break;
+      case 'constructors':
+        pageUrl = './constructor.html';
+        break;
+      case 'robots':
+        pageUrl = './robot.html';
+        break;
+      case 'radioCars':
+        pageUrl = './radio-car.html';
+        break;
+      case 'parkingTrack':
+        pageUrl = './parking.html';
+        break; 
+      case 'twoWheeled':
+        pageUrl = './two-wheeled.html';
+        break;
+      case 'threeWheeled':
+        pageUrl = './three-wheeled.html';
+        break;
+      case 'quadBike':
+        pageUrl = './quad-bike.html';
+        break;
+      case 'jeep':
+        pageUrl = './jeep.html';
+        break;                  
       default:
         pageUrl = './default.html';
         break;

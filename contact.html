@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igra-toys</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo/bear.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="header__background">
+            <div class="header__container container">
+                <nav data-include="header.partial.html"></nav>
+            </div>
+        </div>
+    </header>
+    <div class="contact__box wrapper">
+    <div class="contact__input ">
+    <h3 class="contact__text__title">Напишіть нам</h3>
+    <h3 class="contact__text">Ім'я:</h3> 
+    <input class="inp-1" type="text" placeholder=" Ім'я">
+     <h3 class="contact__text">E-Mail:</h3>
+     <input class="inp-2" type="email" placeholder=" E-Mail">
+     <h3 class="contact__text">Текст:</h3>
+     <textarea class="text-1" type="text" placeholder=" Текст"></textarea>
+     <div class="contact__button">
+     <button class="button__contact">Надіслати</button>
+    </div> 
+    </div> 
+    
+    <div class="contact__info">
+        <h3  class="contact__text__title">Контактна інформація</h3>
+        <div class="contact__info__info">
+        <p class="contact__item">E-Mail: <a href="mailto:igra-toys@gmail.com">igra-toys@gmail.com</a></p>
+        <h3  class="contact__text">Контакти:</h3>
+        <p class="contact__item">+380991234567, +380971234567</p>
+        <h3  class="contact__text">Час роботи</h3>
+        <p class="contact__item">9:00 - 20:00</p>
+        <h3  class="contact__text">Наш адрес</h3>
+        <p class="contact__item">Україна, м.Київ</p>
+    </div>
+    </div>
+</div>
+    <footer data-include="footer.html"></footer>  
+    <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script type="module" src="./js/index.js"></script> 
+</body>
+</html>
