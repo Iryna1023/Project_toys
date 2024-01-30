@@ -1140,6 +1140,87 @@
     }
   },
   "undefined": {
+    "22": {
+      "name": "",
+      "cost": "NaN",
+      "model": "Модель",
+      "number": "22",
+      "description": "",
+      "buy": "Купити",
+      "image": "img/undefined/MMT-1869.jpg"
+    },
+    "26": {
+      "name": "",
+      "cost": "NaN",
+      "model": "Модель",
+      "number": "26",
+      "description": "",
+      "buy": "Купити",
+      "image": "img/undefined/MMT-1869.jpg"
+    },
+    "32": {
+      "name": "",
+      "cost": "NaN",
+      "model": "Модель",
+      "number": "32",
+      "description": "",
+      "buy": "Купити",
+      "image": "img/undefined/MMT-1869.jpg"
+    },
+    "36": {
+      "name": "",
+      "cost": "NaN",
+      "model": "Модель",
+      "number": "36",
+      "description": "",
+      "buy": "Купити",
+      "image": "img/default/MMT-1869.jpg"
+    },
+    "52": {
+      "name": "",
+      "cost": "NaN",
+      "model": "Модель",
+      "number": "52",
+      "description": "",
+      "buy": "Купити",
+      "image": "img/undefined/MMT-1869.jpg"
+    },
+    "63": {
+      "name": "",
+      "cost": "NaN",
+      "model": "Модель",
+      "number": "63",
+      "description": "",
+      "buy": "Купити",
+      "image": "img/undefined/MMT-1869.jpg"
+    },
+    "95": {
+      "name": "",
+      "cost": "NaN",
+      "model": "Модель",
+      "number": "95",
+      "description": "",
+      "buy": "Купити",
+      "image": "img/undefined/MMT-1869.jpg"
+    },
+    "321": {
+      "name": "",
+      "cost": "NaN",
+      "model": "Модель",
+      "number": "321",
+      "description": "",
+      "buy": "Купити",
+      "image": "img/undefined/MMT-1869.jpg"
+    },
+    "325": {
+      "name": "",
+      "cost": "NaN",
+      "model": "Модель",
+      "number": "325",
+      "description": "",
+      "buy": "Купити",
+      "image": "img/undefined/MMT-1869.jpg"
+    },
     "undefined": {
       "reviews": {
         "_lbmrnb34l": {
