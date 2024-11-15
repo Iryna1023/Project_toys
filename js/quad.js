@@ -6,31 +6,52 @@ $('document').ready(function(){
     showMiniCart();
 });
 
-function loadProducts(){
-  
-    $.getJSON('products.json', function(data){
-      
-      let out = '';
-      for (let key in data['quadBike']){     
-          out+='<div class="item__box">';
-          out+='<img class="item__image product-image" src="'+data['quadBike'][key].image+'" alt="#">';  
-          out+='<div class="model__item">';
-          out+='<div class="model">'+data['quadBike'][key]['model']+'</div>';
-          out+='<div class="number__model">'+data['quadBike'][key]['number']+'</div>';
-          out+='</div>';
-          out+='<div class="item__info">';
-          out+='<div class="item__title">';
-          out+='<p>'+data['quadBike'][key]['name']+'</p>'; 
-          out+='</div>';
-          out+='</div>';
-          out+='<div class="item__price">';
-          out+='<p class="price__item">'+data['quadBike'][key]['cost']+' грн</p>';  
-          out+='<button type="button" class="item__buy" data-art="'+key+'">'+data['quadBike'][key]['buy']+'</button>';
-          out+='</div>';
-          out+='</div>';
+    $('#sort__max').on('click', function () {
+      loadProducts('asc');
+  });
 
+  $('#sort__min').on('click', function () {
+      loadProducts('desc');
+  });
+
+function loadProducts(sortOrder = 'asc') {
+  $.getJSON('products.json', function (data) {
+      let out = '';
+      let category = 'quadBike';
+      let products = data[category];
+
+      if (!products) {
+          console.error('Категорія "quadBike" не знайдена в даних!');
+          return;
       }
-      $('.item__quad').html(out);
+
+      products = Object.values(products).sort((a, b) => {
+          if (sortOrder === 'asc') {
+              return a.cost - b.cost;
+          } else {
+              return b.cost - a.cost;
+          }
+      });
+
+      products.forEach((product) => {
+          out += '<div class="item__box">';
+          out += '<img class="item__image product-image" src="' + product.image + '" alt="#">';
+          out += '<div class="model__item">';
+          out += '<div class="model">' + product.model + '</div>';
+          out += '<div class="number__model">' + product.number + '</div>';
+          out += '</div>';
+          out += '<div class="item__info">';
+          out += '<div class="item__title">';
+          out += '<p>' + product.name + '</p>';
+          out += '</div>';
+          out += '</div>';
+          out += '<div class="item__price">';
+          out += '<p class="price__item">' + product.cost + ' грн</p>';
+          out += '<button type="button" class="item__buy" data-art="' + product.number + '">Купити</button>';
+          out += '</div>';
+          out += '</div>';
+      });
+      $('#quadBikeContainer').html(out);
       $('button.item__buy').on('click', addToCart);
     });
 }

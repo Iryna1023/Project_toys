@@ -3,9 +3,7 @@
     padding: 0 24px;
     background-color: #3e8e41;
     height: 100%;
-   margin-top: 200px;
-   flex: 0 0 auto;
-   
+    flex: 0 0 auto;
 }
 
 @media (min-width: 1024px) {
@@ -19,7 +17,6 @@
     padding: 0;
     border: 0;
     vertical-align: baseline;
-   /* margin-top: 550px;*/
 }
 
 .footer__column {
@@ -41,8 +38,6 @@
 @media (min-width: 1024px) {
     .footer__column {
         padding: 0;
-        
-    
     }
 }
 
@@ -71,8 +66,8 @@
         margin: 0;
         text-align: start;
     }
+
     .info__name {
-       /* margin: 0;*/
         font-size: 13px;
         display: block;
         line-height: 1.6;
@@ -83,51 +78,42 @@
     .info__item {
         font-size: 13px;
         line-height: 1.6;
-       /* padding: 0 12px 20px 0;*/
-        /*margin: 0;*/
         width: 100%;
         text-align: start;
     }
+
     .info__name {
         margin: 20px 0 0 0;
         font-size: 13px;
         padding: 7px 0 0 0;
-        
     }
-    
 }
 
 @media (min-width: 1440px) {
     .info__item {
-       /* margin-top: 40px;*/
         font-size: 13px;
-        
     }
 }
 
-.info__find{
+.info__find {
     display: none;
 }
-@media (min-width: 991px){
-     .info__find{
+
+@media (min-width: 991px) {
+    .info__find {
         display: block;
-     }
+    }
 }
-.info__find  {
-   display: none;
-}
-@media (min-width: 1024px){
-    .info__find  {
+
+@media (min-width: 1024px) {
+    .info__find {
         display: block;
-     }
+    }
 }
+
 .info__find a {
     text-decoration: none;
     color: #fff;
-}
-
-.footer__line {
-    width: 100%;
 }
 
 .footer__line:after {
@@ -147,7 +133,6 @@
     text-align: center;
     margin: 20px 20px 0 20px;
     color: rgb(253, 127, 10);
-   
 }
 
 @media (min-width: 768px) {
@@ -156,15 +141,14 @@
         justify-content: space-between;
         margin: 0 0 20px 0;
     }
-    .footer__line {
-        height: 1px;
-    }
 }
 
 @media (min-width: 1024px) {
     .footer__label {
         font-size: 0.7rem;
-       
     }
-    
+}
+
+.footer > *:last-child {
+    margin-bottom: 0;
 }

@@ -91,10 +91,10 @@
       "buy": "Купити"
     }
   },
-  "logics": {
+  "logik": {
     "2068": {
       "name": "Головоломка куб",
-      "category": "logics",
+      "category": "logik",
       "cost": 280,
       "model": "Модель",
       "number": "2068",
@@ -104,7 +104,7 @@
     },
     "96788": {
       "name": "Головоломка лабіринт",
-      "category": "logics",
+      "category": "logik",
       "cost": 350,
       "model": "Модель",
       "number": "96788",
@@ -114,7 +114,7 @@
     },
     "C48512": {
       "name": "Головоломка-антистресс",
-      "category": "logics",
+      "category": "logik",
       "cost": 95,
       "model": "Модель",
       "number": "C48512",
@@ -124,7 +124,7 @@
     },
     "C48508": {
       "name": "Головоломка спіннер антистрес",
-      "category": "logics",
+      "category": "logik",
       "cost": 50,
       "model": "Модель",
       "number": "C48508",
@@ -134,7 +134,7 @@
     },
     "A5563-10": {
       "name": "Логіка-змійка в кор.",
-      "category": "logics",
+      "category": "logik",
       "cost": 170,
       "model": "Модель",
       "number": "A5563-10",
@@ -1138,31 +1138,6 @@
       "image": "img/electro/jeep/JJ2022EBLR-10.png",
       "buy": "Купити"
     }
-  },
-  "undefined": {
-    "undefined": {
-      "reviews": {
-        "_lbmrnb34l": {
-          "category": "reviews",
-          "name": "аа",
-          "text": "аа"
-        },
-        "_omdqdh055": {
-          "category": "reviews",
-          "name": "11",
-          "text": "11"
-        },
-        "_y0k4q27jt": {
-          "category": "reviews",
-          "name": "21",
-          "text": "21"
-        },
-        "_7jj6ogtir": {
-          "category": "reviews",
-          "name": "52",
-          "text": "52"
-        }
-      }
-    }
   }
+ 
 }

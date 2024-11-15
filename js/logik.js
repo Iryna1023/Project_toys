@@ -4,23 +4,24 @@ $('document').ready(function () {
     loadProducts();
     checkCart();
     showMiniCart();
-
+});
     $('#sort__max').on('click', function () {
-        loadProducts('asc');
+        loadProducts('asc'); 
     });
 
     $('#sort__min').on('click', function () {
         loadProducts('desc');
     });
-});
+
 
 function loadProducts(sortOrder = 'asc') {
     $.getJSON('products.json', function (data) {
         let out = '';
-        let products = data['educationsTree'];
+        let category = 'logik';
+        let products = data[category];
 
         if (!products) {
-            console.error('educationsTree" не знайдена в даних!');
+            console.error('Категорія "logik" не знайдена в даних!');
             return;
         }
 
@@ -51,10 +52,12 @@ function loadProducts(sortOrder = 'asc') {
             out += '</div>';
         });
 
-        $('#educationsTreeContainer').html(out);
+        $('#logikContainer').html(out);
         $('button.item__buy').on('click', addToCart);
     });
 }
+
+
 
 function addToCart() {
     let articul = $(this).attr('data-art');
@@ -80,3 +83,6 @@ function showMiniCart() {
     }
     $('.cart-badge').html(totalQuantity);
 }
+
+
+

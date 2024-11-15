@@ -1,0 +1,69 @@
+.contact__box{
+    display: flex;
+    margin-top: 50px;
+    min-height: 450px;
+}
+.contact__input,
+.contact__info{
+    width: 50%;
+}
+.contact__text__title{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #575757;
+    margin-bottom: 18px;
+}
+.contact__text{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #575757;
+    margin-bottom: 5px;
+}
+
+.inp-1{
+width: 260px;
+height: 25px;
+margin-top: 5px;
+margin-bottom: 10px;
+border-radius: 5px;
+padding: 7px;
+}
+.inp-2{
+width: 260px;
+height: 25px;
+margin-top: 5px;
+margin-bottom: 10px;
+border-radius: 5px;
+padding: 7px;
+}
+.text-1{
+width: 260px;
+height: 100px;
+margin-top: 5px;
+border-style: double;
+padding: 7px;
+
+}
+.contact__button{
+    margin-top: 15px;
+}
+.contact__input{
+    color: black;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+
+.contact__info{
+    color: black;
+    margin-right: 110px;
+    margin-top: 25px;
+}
+.contact__info__info{
+    margin-top: 42px;
+}
+.button__contact{
+    padding: 7px;
+}
+.contact__item{
+    margin-bottom: 10px;
+}

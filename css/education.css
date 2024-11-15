@@ -1,4 +1,4 @@
-.icon__icon{
+/* .icon__icon{
     display: flex;
     justify-content: space-evenly;
     margin-top: 40px;
@@ -13,4 +13,59 @@
     height: 100%;
     border: 1px solid black;
     padding: 10px;
+} */
+
+/* Загальні стилі для .icon__icon */
+.icon__icon {
+    display: flex;
+    flex-wrap: wrap; /* Дозволяє елементам переміщуватися на новий рядок при зменшенні екрану */
+    justify-content: space-evenly; /* Розподіляє елементи рівномірно */
+    margin-top: 40px;
+    min-height: 420px;
+}
+
+/* Стилі для кожної іконки */
+.item__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px; /* Початкова ширина */
+    height: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px; /* Відступи між іконками */
+}
+
+.item__icon__item{
+    border: 1px solid rgb(253, 127, 10);
+    width: 200px;
+    height: 270px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.item__title__item a{
+    color: rgb(225,255,255);
+    font-size: 18px;
+}
+
+
+/* Коли ширина екрану більше або дорівнює 768px (3 колонки) */
+@media (min-width: 768px) {
+    .item__icon {
+        width: calc(33.33% - 20px); /* Три колонки з відступами між ними */
+    }
+}
+
+/* Коли ширина екрану від 320px до 767px (2 колонки) */
+@media (min-width: 320px) and (max-width: 767px) {
+    .item__icon {
+        width: calc(50% - 20px); /* Дві колонки з відступами */
+    }
+}
+
+/* Коли ширина екрану менше або дорівнює 320px (1 колонка) */
+@media (max-width: 320px) {
+    .item__icon {
+        width: 100%; /* Одна колонка на весь екран */
+    }
 }

@@ -6,31 +6,52 @@ $('document').ready(function(){
     showMiniCart();
 });
 
-function loadProducts(){
-   
-    $.getJSON('products.json', function(data){
-     
-      let out = '';
-      for (let key in data['heir']){    
-          out+='<div class="item__box">';
-          out+='<img class="item__image product-image" src="'+data['heir'][key].image+'" alt="#">';  
-          out+='<div class="model__item">';
-          out+='<div class="model">'+data['heir'][key]['model']+'</div>';
-          out+='<div class="number__model">'+data['heir'][key]['number']+'</div>';
-          out+='</div>';
-          out+='<div class="item__info">';
-          out+='<div class="item__title">';
-          out+='<p>'+data['heir'][key]['name']+'</p>'; 
-          out+='</div>';
-          out+='</div>';
-          out+='<div class="item__price">';
-          out+='<p class="price__item">'+data['heir'][key]['cost']+' грн</p>';  
-          out+='<button type="button" class="item__buy" data-art="'+key+'">'+data['heir'][key]['buy']+'</button>';
-          out+='</div>';
-          out+='</div>';
+    $('#sort__max').on('click', function () {
+      loadProducts('asc');
+  });
 
+  $('#sort__min').on('click', function () {
+      loadProducts('desc');
+  });
+
+function loadProducts(sortOrder = 'asc') {
+  $.getJSON('products.json', function (data) {
+      let out = '';
+      let category = 'heir';
+      let products = data[category];
+
+      if (!products) {
+          console.error('Категорія "heir" не знайдена в даних!');
+          return;
       }
-      $('.item__heir').html(out);
+
+      products = Object.values(products).sort((a, b) => {
+          if (sortOrder === 'asc') {
+              return a.cost - b.cost;
+          } else {
+              return b.cost - a.cost;
+          }
+      });
+
+      products.forEach((product) => {
+          out += '<div class="item__box">';
+          out += '<img class="item__image product-image" src="' + product.image + '" alt="#">';
+          out += '<div class="model__item">';
+          out += '<div class="model">' + product.model + '</div>';
+          out += '<div class="number__model">' + product.number + '</div>';
+          out += '</div>';
+          out += '<div class="item__info">';
+          out += '<div class="item__title">';
+          out += '<p>' + product.name + '</p>';
+          out += '</div>';
+          out += '</div>';
+          out += '<div class="item__price">';
+          out += '<p class="price__item">' + product.cost + ' грн</p>';
+          out += '<button type="button" class="item__buy" data-art="' + product.number + '">Купити</button>';
+          out += '</div>';
+          out += '</div>';
+      });
+      $('#heirContainer').html(out);
       $('button.item__buy').on('click', addToCart);
     });
 }

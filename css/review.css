@@ -1,9 +1,11 @@
+.review{
+    min-height: 500px;
+}
 
 .review__content{
     padding: 0 50px;
-    height: 100%;
     display: flex;
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 

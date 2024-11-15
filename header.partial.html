@@ -1,16 +1,13 @@
-<nav class="header__nav wrapper">
-    <div class="header__admin">
-        <button type="button" id="myBtn"><img src="img/icons/admin.png"  class="admin__account" alt="" width="32" height="32"> </button>     
-    </div>
+<nav class="header__nav">
     <div class="header__nav-logo">
         <a class="header__nav-link" href="index.html">
             <img src="img/logo.kub/kub.png" alt="Logo" class="header__nav-img" />
         </a>
         <p class="title__logo">Igra-toys</p>
     </div>
-    <a href="#" class="header__menu-btn">
+    <button id="menu-btn" class="header__menu-btn">
         <span class="header__navicon"></span>
-    </a>
+    </button>
     <div class="header__nav-menu">
         <div class="dropdown">
             <ul class="header__nav-list nav-list">
@@ -62,10 +59,17 @@
      <a href="./jeep.html">Джипи</a>
      </div>
    </div>
+   <div class="dropdown">
        <ul class="header__nav-list nav-list">
             <li class="nav-list__link"><a href="./review.html">Відгуки</a></li>
-            <li class="nav-list__link"><a href="#">Контакти</a></li>
+        </ul>
+    </div>
+        <div class="dropdown">
+            <ul class="header__nav-list nav-list">
+            <li class="nav-list__link"><a href="./contact.html">Контакти</a></li>
        </ul>
+    </div>
+</div>
         <div class="header__cart cart">    
          <a href="./cart.html"> 
              <div class="nav-link cart" >
@@ -83,6 +87,6 @@
             </div>
             </a>
         </div>
-    </div>
+   
 </nav>
-
+<script type="module" src="./js/index.js"></script>

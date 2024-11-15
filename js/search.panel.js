@@ -1,5 +1,3 @@
-let currentSearchResults = [];
-
 $(document).ready(function () {
   let products;
 
@@ -28,17 +26,28 @@ $(document).ready(function () {
     return results;
   }
 
-  function displaySearchResults(results) {
+  function updateSearchResults(results) {
     const resultsContainer = $('#searchResults');
     resultsContainer.empty();
 
-    if (results.length === 0) {
-      resultsContainer.append('<p>Немає результатів</p>');
-    } else {
-      results.forEach(function (product) {
-        const productLink = `<a href="product.html?key=${product.key}">${product.name}</a>`;
-        resultsContainer.append(`<p>${productLink}</p>`);
+    if (results.length > 0) {
+      const resultList = $('<ul></ul>');
+
+      results.forEach(result => {
+        const listItem = $('<li></li>').text(result.name);
+        listItem.data('result', result);
+
+        listItem.on('click', function () {
+          const result = $(this).data('result');
+          navigateToProductPage(result.category);
+        });
+
+        resultList.append(listItem);
       });
+
+      resultsContainer.append(resultList);
+    } else {
+      resultsContainer.html('<p>Немає результатів</p>');
     }
   }
 
@@ -67,42 +76,36 @@ $(document).ready(function () {
       case 'heir':
         pageUrl = './heir.html';
         break;
+      case 'constructors':
+        pageUrl = './constructor.html';
+        break;
+      case 'robots':
+        pageUrl = './robot.html';
+        break;
+      case 'radioCars':
+        pageUrl = './radio-car.html';
+        break;
+      case 'parkingTrack':
+        pageUrl = './parking.html';
+        break;
+      case 'twoWheeled':
+        pageUrl = './two-wheeled.html';
+        break;
+      case 'threeWheeled':
+        pageUrl = './three-wheeled.html';
+        break;
+      case 'quadBike':
+        pageUrl = './quad-bike.html';
+        break;
+      case 'jeep':
+        pageUrl = './jeep.html';
+        break;
       default:
         pageUrl = './default.html';
         break;
     }
 
-    console.log('Page URL:', pageUrl);
     window.location.href = pageUrl;
-  }
-
-  function updateSearchResults(results) {
-    currentSearchResults = results;
-
-    const resultsContainer = $('#searchResults');
-    resultsContainer.empty();
-
-    if (results.length > 0) {
-      const resultList = $('<ul></ul>');
-
-      results.forEach(result => {
-        const listItem = $('<li></li>').text(result.name);
-        listItem.data('result', result);
-
-        listItem.on('click', function () {
-          console.log('Click event triggered');
-          const result = $(this).data('result');
-          console.log('Selected Result:', result);
-          navigateToProductPage(result.category);
-        });
-
-        resultList.append(listItem);
-      });
-
-      resultsContainer.append(resultList);
-    } else {
-      resultsContainer.html('<p>Немає результатів</p>');
-    }
   }
 
   $.getJSON(productsURL, function (data) {
@@ -115,9 +118,7 @@ $(document).ready(function () {
       if (searchTerm !== undefined && searchTerm !== null && searchTerm.trim() !== '') {
         const lowerCaseSearchTerm = searchTerm.toLowerCase();
         const searchResults = searchProductsByName(lowerCaseSearchTerm);
-        displaySearchResults(searchResults);
-      } else {
-        console.error('Invalid search term');
+        updateSearchResults(searchResults);
       }
     });
 
@@ -131,5 +132,12 @@ $(document).ready(function () {
       $('#searchInput').val('');
       $('#searchResults').empty();
     });
+
+    $(document).on('click', function (e) {
+      if (!$(e.target).closest('#searchResults').length && !$(e.target).closest('#searchInput').length) {
+        $('#searchResults').empty();
+      }
+    });
+
   });
 });
