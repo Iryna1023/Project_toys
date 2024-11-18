@@ -1,9 +1,8 @@
 #searchPanel {
   display: flex;
   position: relative;
-  z-index: 2;
+  z-index: 9999;
   top: -32px;
-  /* padding-left: 10px; */
   width: 68%;
   box-sizing: border-box;
   height: 25px;
@@ -71,7 +70,6 @@
   #searchPanel {
     display: flex;
     position: relative;
-    z-index: 2;
     top: 10px;
     padding-left: 10px;
     box-sizing: border-box;

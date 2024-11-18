@@ -26,14 +26,6 @@
     font-size: 12px;
 }
 
-
-/* .item__subtitle{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 10px;
-} */
-
 .item__stock{
     margin-top: 20px;
 }
@@ -74,4 +66,10 @@
    cursor: pointer; 
    border: none;
    border-radius: 6px;
+}
+
+.item__image{
+    width: 178px;
+    height: 150px;
+    object-fit: cover;
 }
