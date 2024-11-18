@@ -46,7 +46,6 @@ a {
 body {
   background: rgb(225,255,255);
   color: var(--color-title);
-  font-family: var(--body-fonts);
 }
 
 
