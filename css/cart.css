@@ -88,7 +88,6 @@
     background-color: #fff;
     padding: 10px;
     border-radius: 5px;
-    min-width: 300px;
 }
 
 .cart__order__cart p {
@@ -241,6 +240,7 @@
     }
     .cart__text{
         font-size: 12px;
+        width: 35px;
     }
     .cart__price{
         font-size: 12px;
@@ -301,6 +301,10 @@
     }
     .cart__text{
         font-size: 12px;
+        width: 60px;
+        margin: 0 10px;
+        display: flex;
+        text-align: left;
     }
     .cart__price{
         font-size: 12px;
